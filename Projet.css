@@ -1,15 +1,21 @@
 .titre
 {
+    color:white;
     text-align: center;
+    font-family: Snell Roundhand, cursive;
 }
-
+h1
+{
+    background: url(images/CM.jpg);
+}
 
 nav.primary-navigation {
     margin: 0 auto;
     display: block;
-    padding: 120px 0 0 0;
+    padding: 25px 0 0 0;
     text-align: center;
     font-size: 16px;
+    height: 70px;
 }
 nav.primary-navigation ul li {
     list-style: none;
@@ -20,7 +26,7 @@ nav.primary-navigation ul li {
     position: relative;
     text-decoration: none;
     text-align: center;
-    font-family: arvo;
+    font-family: Snell Roundhand, cursive;
 }
 nav.primary-navigation li a {
     color: black;
@@ -28,8 +34,8 @@ nav.primary-navigation li a {
 nav.primary-navigation li a:hover {
     color: #c20909;
 }
+
 nav.primary-navigation li:hover {
-    cursor: pointer;
 }
 nav.primary-navigation ul li ul {
     visibility: hidden;
@@ -58,10 +64,11 @@ nav.primary-navigation ul li ul li {
 }
 nav.primary-navigation ul li ul li a:hover {
     padding-left: 10px;
-    border-left: 2px solid #c20909;
-    transition: all 0.3s ease;
+    border-left: 2px solid #941a1a;
+    transition: all 0.2s ease;
 }
 a {
+    color : white;
     text-decoration: none;
 }
 a:hover {
