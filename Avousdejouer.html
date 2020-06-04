@@ -21,6 +21,7 @@
                   <li><a href="#">Processeur</a></li>
                   <li><a href="#">Carte graphique</a></li>
                   <li><a href="#">RAM</a></li>
+                  <li><a href="#">refroidissement</a></li>
                   <li><a href="#">Stockage</a></li>
                   <li><a href="#">Alimentation</a></li>
                 </ul>
@@ -34,5 +35,55 @@
 </header>
 <body>
     <p>Page de A Vous de jouer</p>
+
+    <button id="button1" type="submit" onclick="addline()">Ajouter</button>
+
+    <div>      
+      <select name="CPU" id="CPU">
+        <option value="">Saisir votre marque de CPU</option>
+        <option value="Intel">Intel</option>
+        <option value="AMD">AMD</option>
+    </select>
+
+      <select name="GPU" id="GPU">
+        <option value="">Saisir votre marque de GPU</option>
+        <option value="Nvidia">Nvidia</option>
+        <option value="AMD">AMD</option>
+    </select>
+
+      <select name="ram" id="ram">
+        <option value="">Saisir votre ram</option>
+        <option value="8 Go">8 Go</option>
+        <option value="16 Go">16 Go</option>
+        <option value="32 Go">32 Go</option>
+        <option value="64 Go">64 Go</option>
+    </select>
+  
+      <select name="refroidissement" id="refroidissement">
+          <option value="">choisissez un refroidissement</option>
+          <option value="ventirad">ventirad</option>
+          <option value="watercooling">watercooling</option>
+      </select>
+
+      <select name="stockage" id="stockage">
+        <option value="">choisissez un format de stockage</option>
+        <option value="HDD">HDD</option>
+        <option value="SSD">SSD</option>
+    </select>
+    </div>
+
+
+
+    <table cellpadding="15" id="table" class="case">
+      <caption>Votre ordinateur:</caption>
+      <tr>
+          <td>CPU</td>
+          <td>GPU</td>
+          <td>ram</td>
+          <td>refroidissement</td></br>
+          <td>stockage</td>
+      </tr>
+  </table>
+
 </body>
 </html>
