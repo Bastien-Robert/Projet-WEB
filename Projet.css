@@ -9,23 +9,31 @@ body.corps{
     color:rgb(255, 255, 255);
 }
 
-body.corps p.titre{
-    margin-top:710;
-    margin-left:200px;
+body.corps p.Ptitre{
+    margin-top:800px;
+    margin-left:250;
     color: rgb(187, 87, 20);
     font-size: 50px;
+    font-family: Impact, fantasy;
+    font-style: oblique;
 }
 
 body.corps p{
-    margin-top:100px;
+    margin-top:10px;
     margin-left:200px;
 }
+
+body div{
+
+}
+
 
 .titre
 {
     color:rgb(255, 255, 255);
     text-align: center;
-    font-family: Snell Roundhand, cursive;
+    font-family: Impact, fantasy;
+    font-style: oblique;
 }
 header h1
 {
@@ -49,7 +57,8 @@ nav.primary-navigation ul li {
     position: relative;
     text-decoration: none;
     text-align: center;
-    font-family: Snell Roundhand, cursive;
+    font-family: Impact, fantasy;
+    font-style: oblique;
 }
 nav.primary-navigation li a {
     color: rgb(187, 87, 20);
