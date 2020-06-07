@@ -1,10 +1,33 @@
+body.corps{
+    background: url(images/WP2.png);
+    background-size: 80%;;
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 175px;
+    background-attachment: scroll;
+    background-color: black;
+    color:rgb(255, 255, 255);
+}
+
+body.corps p.titre{
+    margin-top:710;
+    margin-left:200px;
+    color: rgb(187, 87, 20);
+    font-size: 50px;
+}
+
+body.corps p{
+    margin-top:100px;
+    margin-left:200px;
+}
+
 .titre
 {
-    color:white;
+    color:rgb(255, 255, 255);
     text-align: center;
     font-family: Snell Roundhand, cursive;
 }
-h1
+header h1
 {
     background: url(images/CM.jpg);
 }
@@ -29,7 +52,7 @@ nav.primary-navigation ul li {
     font-family: Snell Roundhand, cursive;
 }
 nav.primary-navigation li a {
-    color: black;
+    color: rgb(187, 87, 20);
 }
 nav.primary-navigation li a:hover {
     color: #c20909;
