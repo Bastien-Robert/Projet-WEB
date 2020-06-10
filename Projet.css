@@ -5,17 +5,16 @@ body.corps{
     background-position-x: 140px,150px;
     background-position-y: 800px,175px;
     background-attachment: scroll, fixed;
-    background-color: black;
+    background-color:rgb(226, 226, 226);
     color:rgb(255, 255, 255);
 }
 
 body.corps p.Ptitre{
     margin-top:800px;
     margin-left:250;
-    color: rgb(187, 87, 20);
+    color: rgb(214, 96, 16);
     font-size: 50px;
     font-family: Impact, fantasy;
-    font-style: oblique;
 }
 
 body.corps p{
@@ -29,7 +28,6 @@ body.corps p{
     color:rgb(255, 255, 255);
     text-align: center;
     font-family: Impact, fantasy;
-    font-style: oblique;
 }
 div.entete
 {
@@ -47,20 +45,19 @@ nav.primary-navigation {
 nav.primary-navigation ul li {
     list-style: none;
     margin: 0 auto;
-    border-left: 2px solid #c20909;
+    border-left: 2px solid #ff3e0e;
     display: inline-block;
     padding: 0 30px;
     position: relative;
     text-decoration: none;
     text-align: center;
     font-family: Impact, fantasy;
-    font-style: oblique;
 }
 nav.primary-navigation li a {
-    color: rgb(187, 87, 20);
+    color: rgb(214, 96, 16);
 }
 nav.primary-navigation li a:hover {
-    color: #c20909;
+    color: #ff6c32;
 }
 
 nav.primary-navigation li:hover {
@@ -92,15 +89,15 @@ nav.primary-navigation ul li ul li {
 }
 nav.primary-navigation ul li ul li a:hover {
     padding-left: 10px;
-    border-left: 2px solid #941a1a;
+    border-left: 2px solid #ff6c32;
     transition: all 0.2s ease;
 }
 a {
-    color : rgb(187, 87, 20);
+    color : rgb(214, 96, 16);
     text-decoration: none;
 }
 a:hover {
-    color: #3ca0e7;
+    color: #ff6c32;
 }
 ul li ul li a {
     transition: all 0.5s ease;
