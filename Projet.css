@@ -60,8 +60,7 @@ nav.primary-navigation li a:hover {
     color: #ff6c32;
 }
 
-nav.primary-navigation li:hover {
-}
+
 nav.primary-navigation ul li ul {
     visibility: hidden;
     opacity: 0;
@@ -101,4 +100,37 @@ a:hover {
 }
 ul li ul li a {
     transition: all 0.5s ease;
+}
+
+body.AVDJ{
+    text-align: center;
+    width: 100%;
+    background-color:rgb(226, 226, 226);
+}
+
+div.form{
+    width:70%;
+    border: 1px solid black;
+    padding: 20px;        /*le padding écarte les bordures*/
+    box-sizing: border-box; /*le bloc se déplace*/
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15%;
+}
+
+table{
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(255, 255, 255);
+}
+table tr:first-child{
+    font-weight: bolder;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
 }
