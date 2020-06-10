@@ -110,11 +110,42 @@ body.AVDJ{
 div.form{
     width:70%;
     border: 1px solid black;
-    padding: 20px;        /*le padding écarte les bordures*/
+    padding: 400px;        /*le padding écarte les bordures*/
     box-sizing: border-box; /*le bloc se déplace*/
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
+    background: url(images/test.png);
     margin-left: 15%;
+}
+
+div.form select{
+    background-color: rgb(200, 173, 127);
+    font-size: large;
+}
+
+div.form select#CPU{
+    position: absolute;
+    margin: -150px -250px;
+}
+
+div.form select#GPU{
+    position: absolute;
+    margin: 240px -190px;
+}
+
+div.form select#ram{
+    position: absolute;
+    margin: -150px 150px;
+}
+
+div.form select#refroidissement{
+    position: absolute;
+    margin: -270px -270px;
+}
+
+div.form select#stockage{
+    position: absolute;
+    margin: 70px -240px;
 }
 
 table{
