@@ -60,8 +60,6 @@ nav.primary-navigation li a:hover {
     color: #ff6c32;
 }
 
-nav.primary-navigation li:hover {
-}
 nav.primary-navigation ul li ul {
     visibility: hidden;
     opacity: 0;
