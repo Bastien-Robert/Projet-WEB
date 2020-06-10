@@ -1,10 +1,10 @@
 body.corps{
-    background: url(images/WP2.png);
-    background-size: 80%;;
+    background: url(images/black.png),url(images/WP2.png);
+    background-size: 100%, 80%;
     background-repeat: no-repeat;
-    background-position-x: 150px;
-    background-position-y: 175px;
-    background-attachment: scroll;
+    background-position-x: 140px,150px;
+    background-position-y: 800px,175px;
+    background-attachment: scroll, fixed;
     background-color: black;
     color:rgb(255, 255, 255);
 }
@@ -31,7 +31,7 @@ body.corps p{
     font-family: Impact, fantasy;
     font-style: oblique;
 }
-header h1
+div.entete
 {
     background: url(images/CM.jpg);
 }
@@ -96,7 +96,7 @@ nav.primary-navigation ul li ul li a:hover {
     transition: all 0.2s ease;
 }
 a {
-    color : white;
+    color : rgb(187, 87, 20);
     text-decoration: none;
 }
 a:hover {
