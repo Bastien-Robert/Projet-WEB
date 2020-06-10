@@ -1,5 +1,5 @@
 function addline(){
-    document.getElementById("button1").disabled = true;
+
 
     var CPU= document.getElementById('CPU').value;
     var GPU= document.getElementById('GPU').value;
@@ -17,5 +17,9 @@ function addline(){
     cel2.innerText= GPU;
     cel3.innerText= ram;
     cel4.innerText= refroidissement;
+
+}
+
+function scroll_wp(){
 
 }
