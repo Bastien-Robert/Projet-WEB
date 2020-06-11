@@ -194,3 +194,12 @@ tr:hover {
     font-family: Impact, fantasy;
 }
 
+img {
+    float: right;
+    width: 200px;
+}
+
+.par-composants {
+    margin-right : 25%;
+    vertical-align: middle;
+}
