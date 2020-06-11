@@ -111,6 +111,7 @@ body.AVDJ{
     background-color:rgb(226, 226, 226);
 }
 
+
 div.form{
     width:70%;
     border: 1px solid black;
@@ -128,6 +129,13 @@ div.form select{
     background-color: rgb(200, 173, 127);
     font-size: large;
     border-radius: 50px;
+}
+
+div.form select:hover{
+    background-color: rgb(155, 121, 63);
+    font-size: large;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px rgb(112, 88, 46);
 }
 
 div.form select#CPU{
@@ -148,11 +156,17 @@ div.form select#ram{
 div.form select#refroidissement{
     position: absolute;
     margin: -270px -270px;
+    z-index: 1;
 }
 
 div.form select#stockage{
     position: absolute;
     margin: 70px -240px;
+}
+
+div.form select#alim{
+    position: absolute;
+    margin: 300px 200px;
 }
 
 table caption{
@@ -176,6 +190,7 @@ th, td {
 
 tr:hover {
     background-color: #f5f5f5;
+    color: rgb(214, 96, 16);
+    font-family: Impact, fantasy;
 }
-
 
