@@ -111,6 +111,11 @@ body.AVDJ{
     background-color:rgb(226, 226, 226);
 }
 
+body.AVDJ button{
+    color: rgb(214, 96, 16);
+    font-family: Impact, fantasy;
+    font-size: large;
+}
 
 div.form{
     width:70%;
@@ -194,3 +199,21 @@ tr:hover {
     font-family: Impact, fantasy;
 }
 
+.QSNtitre{
+    font-size: 50px;
+    font-family: Impact, fantasy;
+    color: rgb(214, 96, 16);
+    text-align: center;
+}
+
+#BR{
+    width: 150px;
+}
+
+#LLB{
+    width: 150px;
+}
+
+#LB{
+    width: 150px;
+}
