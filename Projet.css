@@ -3,10 +3,9 @@ body.corps{
     background-size: 100%, 80%;
     background-repeat: no-repeat;
     background-position-x: 140px,150px;
-    background-position-y: 800px,175px;
+    background-position-y: 800px,200px;
     background-attachment: scroll, fixed;
     background-color:rgb(226, 226, 226);
-    color:rgb(255, 255, 255);
 }
 
 body.corps p.Ptitre{
@@ -25,13 +24,15 @@ body.corps p{
 
 .titre
 {
-    color:rgb(255, 255, 255);
     text-align: center;
     font-family: Impact, fantasy;
+    font-size: 50px;
+
 }
 div.entete
 {
     background: url(images/CM.jpg);
+    background-size: cover;
 }
 
 nav.primary-navigation {
@@ -52,6 +53,8 @@ nav.primary-navigation ul li {
     text-decoration: none;
     text-align: center;
     font-family: Impact, fantasy;
+    text-shadow:white 2px 0 3px;
+    font-size: 20px;
 }
 nav.primary-navigation li a {
     color: rgb(214, 96, 16);
@@ -77,6 +80,7 @@ nav.primary-navigation ul li:hover > ul, nav.primary-navigation ul li ul:hover {
     text-align: left;
     padding-top: 20px;
     box-shadow: 0px 3px 5px -1px #ccc;
+    z-index: 2;
 }
 nav.primary-navigation ul li ul li {
     clear: both;
@@ -107,6 +111,7 @@ body.AVDJ{
     background-color:rgb(226, 226, 226);
 }
 
+
 div.form{
     width:70%;
     border: 1px solid black;
@@ -117,12 +122,20 @@ div.form{
     background: url(images/test.png);
     margin-left: 15%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div.form select{
     background-color: rgb(200, 173, 127);
     font-size: large;
     border-radius: 50px;
+}
+
+div.form select:hover{
+    background-color: rgb(155, 121, 63);
+    font-size: large;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px rgb(112, 88, 46);
 }
 
 div.form select#CPU{
@@ -143,11 +156,17 @@ div.form select#ram{
 div.form select#refroidissement{
     position: absolute;
     margin: -270px -270px;
+    z-index: 1;
 }
 
 div.form select#stockage{
     position: absolute;
     margin: 70px -240px;
+}
+
+div.form select#alim{
+    position: absolute;
+    margin: 300px 200px;
 }
 
 table caption{
@@ -171,6 +190,7 @@ th, td {
 
 tr:hover {
     background-color: #f5f5f5;
+    color: rgb(214, 96, 16);
+    font-family: Impact, fantasy;
 }
-
 

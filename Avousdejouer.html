@@ -61,7 +61,7 @@
   
       <select name="refroidissement" id="refroidissement">
           <option value="">choisissez un refroidissement</option>
-          <option value="ventirad">ventirad</option>
+          <option value="aircooling">aircooling</option>
           <option value="watercooling">watercooling</option>
       </select>
 
@@ -70,6 +70,13 @@
         <option value="HDD">HDD</option>
         <option value="SSD">SSD</option>
     </select>
+
+    <select name="alim" id="alim">
+      <option value="">choisissez une alimentation</option>
+      <option value="250w">250w</option>
+      <option value="550w">550w</option>
+      <option value="750w">750w</option>
+  </select>
     </div>
     <br><br>
     <button id="button1" type="submit" onclick="addline()">Ajouter</button>
@@ -78,12 +85,14 @@
     <br><br><br><br>
     <table cellpadding="15" id="table" class="case">
       <caption>Votre ordinateur:</caption>
+      <br><br>
       <tr>
           <td>CPU</td>
           <td>GPU</td>
           <td>ram</td>
           <td>refroidissement</td></br>
           <td>stockage</td>
+          <td>alimentation</td>
       </tr>
   </table>
 
