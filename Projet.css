@@ -314,6 +314,7 @@ li.ordi{
     border-color: rgb(214, 96, 16);
     list-style: none;
     display: inline-block;
+    text-align: center;
 }
 
 li.ordi p.nomordi{
