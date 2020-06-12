@@ -303,6 +303,12 @@ a.nos-reseaux-I:hover {
     position: absolute;
 }
 
+.description {
+    margin-top: 350px;
+    font-family: Impact, fantasy;
+    text-indent: -80px;
+}
+
 div.ordi{
     background: rgb(226, 226, 226);
     width: 500px;
