@@ -259,19 +259,19 @@ img.nous{
 .nous:hover{
     width: 170px;
     border-radius: 40%;
-    -webkit-transform:scale(1.2);
+    -webkit-transform:scale(1.5);
 }
 
 p.nous{
     margin-top: 250px;
     font-family: Impact, fantasy;
-    text-indent: 45px;
+    text-indent: 30px;
 }
 
 a.nos-reseaux-F {
     color : rgb(214, 96, 16);
     text-decoration: none;
-    margin-left: 58px;
+    margin-left: 43px;
 }
 
 a.nos-reseaux-F:hover {
@@ -281,7 +281,7 @@ a.nos-reseaux-F:hover {
 a.nos-reseaux-I {
     color : rgb(214, 96, 16);
     text-decoration: none;
-    margin-left: 55px;
+    margin-left: 40px;
 }
 
 a.nos-reseaux-I:hover {
