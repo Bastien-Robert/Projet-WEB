@@ -9,7 +9,7 @@ body.corps{
     background-size: 100%, 80%;
     background-repeat: no-repeat;
     background-position-x: 140px,150px;
-    background-position-y: 750px,200px;
+    background-position-y: 850px,200px;
     background-attachment: scroll, fixed;
     background-color:rgb(226, 226, 226);
 }
