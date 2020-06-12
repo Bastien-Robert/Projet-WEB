@@ -1,3 +1,9 @@
+body
+{
+    margin-top: 0;
+}
+
+
 body.corps{
     background: url(images/black.png),url(images/WP2.png);
     background-size: 100%, 80%;
@@ -35,8 +41,12 @@ body.corps p{
 }
 .entete
 {
+    margin: 0;
+    border-bottom: 5px solid;
+    border-color: rgb(214, 96, 16);
     background: url(images/CM.jpg);
     background-size: cover;
+
 }
 
 nav.primary-navigation {
@@ -343,4 +353,17 @@ li.ordi p{
     font-family: Impact, fantasy;
     font-size: 20px;
     color:rgb(214, 96, 16);
+}
+
+.video
+{
+    width: 1920px;
+    height: 1080px;
+    max-width: 100%;
+    height: auto;    
+}
+
+.liste-PC {
+    margin-top:10px;
+    margin-left:200px;
 }
