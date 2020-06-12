@@ -219,13 +219,29 @@ tr:hover {
 
 img.comp {
     float: right;
-    width: 200px;
+    width: 250px;
+    margin: -50 auto;
+}
+
+.titre-composants {
+    font-size: 30px;
+    font-family: Impact, fantasy;
+    color: rgb(214, 96, 16);
+}
+
+.titre-composants-petit {
+    font-size: 22.5px;
+    font-family: Impact, fantasy;
+    color: rgb(214, 96, 16);
 }
 
 .par-composants {
     margin-right : 25%;
     vertical-align: middle;
+    font-family: Impact, fantasy;
+    font-size: 20px;
 }
+
 .QSNtitre{
     font-size: 50px;
     font-family: Impact, fantasy;
@@ -247,7 +263,6 @@ p.nous{
     margin-top: 220px;
     font-family: Impact, fantasy;
 }
-
 
 
 #BR{
