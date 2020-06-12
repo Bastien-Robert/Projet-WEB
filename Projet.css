@@ -242,18 +242,40 @@ img.comp {
 img.nous{
     width: 150px;
     border-radius: 50%;
+    -webkit-transition: all 1s ease;
 }
 
 .nous:hover{
     width: 200px;
     border-radius: 40%;
+    -webkit-transform:scale(1.2);
 }
 
 p.nous{
-    margin-top: 220px;
+    margin-top: 250px;
     font-family: Impact, fantasy;
+    text-indent: 45px;
 }
 
+a.nos-reseaux-F {
+    color : rgb(214, 96, 16);
+    text-decoration: none;
+    margin-left: 58px;
+}
+
+a.nos-reseaux-F:hover {
+    color: #ff6c32;
+}
+
+a.nos-reseaux-I {
+    color : rgb(214, 96, 16);
+    text-decoration: none;
+    margin-left: 55px;
+}
+
+a.nos-reseaux-I:hover {
+    color: #ff6c32;
+}
 
 #BR{
     margin-left: 10%;
