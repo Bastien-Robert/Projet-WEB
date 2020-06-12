@@ -14,6 +14,8 @@ body.corps p.Ptitre{
     color: rgb(214, 96, 16);
     font-size: 50px;
     font-family: Impact, fantasy;
+    text-shadow:rgb(0, 0, 0) 2px 0 2px;
+
 }
 
 body.corps p{
@@ -27,6 +29,8 @@ body.corps p{
     text-align: center;
     font-family: Impact, fantasy;
     font-size: 50px;
+    text-shadow:rgb(0, 0, 0) 2px 0 2px;
+
 
 }
 .entete
@@ -46,15 +50,17 @@ nav.primary-navigation {
 nav.primary-navigation ul li {
     list-style: none;
     margin: 0 auto;
-    border-left: 2px solid rgb(214, 96, 16);
+    border-left: 4px solid rgb(214, 96, 16);
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 25px;
     position: relative;
     text-decoration: none;
     text-align: center;
     font-family: Impact, fantasy;
-    text-shadow:white 2px 0 3px;
-    font-size: 20px;
+    text-shadow:rgb(0, 0, 0) 2px 0 2px;
+    font-size: 22px;
+    letter-spacing: 2px;
+
 }
 nav.primary-navigation li a {
     color: rgb(214, 96, 16);
@@ -88,6 +94,7 @@ nav.primary-navigation ul li ul li {
     text-align: left;
     margin-bottom: 20px;
     border-style: none;
+    letter-spacing: 0px;
 }
 nav.primary-navigation ul li ul li a:hover {
     padding-left: 10px;
@@ -103,7 +110,10 @@ a:hover {
 }
 ul li ul li a {
     transition: all 0.5s ease;
+    text-shadow: none;
+    font-size: 20px;
 }
+
 
 body.AVDJ{
     text-align: center;
@@ -209,13 +219,29 @@ tr:hover {
 
 img.comp {
     float: right;
-    width: 200px;
+    width: 250px;
+    margin: -50 auto;
+}
+
+.titre-composants {
+    font-size: 30px;
+    font-family: Impact, fantasy;
+    color: rgb(214, 96, 16);
+}
+
+.titre-composants-petit {
+    font-size: 22.5px;
+    font-family: Impact, fantasy;
+    color: rgb(214, 96, 16);
 }
 
 .par-composants {
     margin-right : 25%;
     vertical-align: middle;
+    font-family: Impact, fantasy;
+    font-size: 20px;
 }
+
 .QSNtitre{
     font-size: 50px;
     font-family: Impact, fantasy;
@@ -238,7 +264,6 @@ p.nous{
     margin-top: 220px;
     font-family: Impact, fantasy;
 }
-
 
 
 #BR{
