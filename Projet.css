@@ -385,3 +385,10 @@ li.ordi p.carac{
     font-family: Impact, fantasy;
     text-indent: -80px;
 }
+
+.crédit{
+    font-family: Impact, fantasy;
+    color: rgb(214, 96, 16);
+    text-align: center;
+    text-shadow:rgb(0, 0, 0) 2px 0 2px;
+}
