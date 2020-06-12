@@ -366,3 +366,9 @@ li.ordi p{
     margin-top:10px;
     margin-left:200px;
 }
+
+.description {
+    margin-top: 350px;
+    font-family: Impact, fantasy;
+    text-indent: -80px;
+}
