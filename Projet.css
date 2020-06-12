@@ -315,7 +315,8 @@ li.ordi{
     border-color: rgb(214, 96, 16);
     list-style: none;
     display: inline-block;
-    text-align: center;
+    margin-left: 110px;
+    margin-top: 90px;
 }
 
 li.ordi p.nomordi{
@@ -323,10 +324,21 @@ li.ordi p.nomordi{
     color: rgb(214, 96, 16);
     float: right;
     margin-right: 25px;
+    font-size: 35px;
 }
 
-li.ordi p{
+li.ordi p.price{
+    font-family: Impact, fantasy;
+    color: rgb(214, 96, 16);
+    float: left;
+    margin-left: 25px;
+    font-size: 35px;
+}
+
+li.ordi p.carac{
     float: right;
+    margin-right: 50px;
+    margin-bottom: 300px;
    
 }
 
@@ -423,4 +435,10 @@ li.ordi p{
     to {
         opacity: 1;
     }
+}
+.crédit{
+    font-family: Impact, fantasy;
+    color: rgb(214, 96, 16);
+    text-align: center;
+    text-shadow:rgb(0, 0, 0) 2px 0 2px;
 }
