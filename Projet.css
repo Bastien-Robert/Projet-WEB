@@ -37,7 +37,8 @@ body.corps p{
     font-size: 50px;
     text-shadow:rgb(0, 0, 0) 2px 0 2px;
     color:rgb(214, 96, 16);
-
+    z-index: 1;
+    position: relative;
 }
 .entete
 {
@@ -361,6 +362,8 @@ li.ordi p{
     height: 1080px;
     max-width: 100%;
     height: auto;    
+    z-index: 0;
+    position: absolute;
 }
 
 .liste-PC {
@@ -372,4 +375,52 @@ li.ordi p{
     margin-top: 350px;
     font-family: Impact, fantasy;
     text-indent: -80px;
+}
+
+
+.titre_index
+{
+    text-align: center;
+    font-family: Impact, fantasy;
+    font-size: 42px;
+    color:rgb(214, 96, 16);
+    z-index: 1;
+    position: relative;
+    text-shadow:rgb(0, 0, 0) 2px 0 2px;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari et Chrome */
+    -o-animation: fadein 4s; /* Opera */}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
