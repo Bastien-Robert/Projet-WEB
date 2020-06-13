@@ -463,6 +463,6 @@ li.ordi p.carac{
 }
 
 div.entete#bas{
-    border: 5px solid;
+    border-top: 5px solid;
     border-color: rgb(214, 96, 16);;
 }
