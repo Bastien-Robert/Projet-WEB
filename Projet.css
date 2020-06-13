@@ -73,6 +73,11 @@ nav.primary-navigation ul li {
     letter-spacing: 2px;
 
 }
+
+nav.primary-navigation#bas ul li {
+    border-left: none;
+}
+
 nav.primary-navigation li a {
     color: rgb(214, 96, 16);
 }
