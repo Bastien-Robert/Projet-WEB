@@ -29,6 +29,10 @@ body.corps p{
     margin-left:200px;
 }
 
+body.corps p.crédit{
+    margin-right:200px;
+}
+
 
 .titre
 {
