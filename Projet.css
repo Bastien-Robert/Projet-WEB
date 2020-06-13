@@ -261,14 +261,22 @@ img.comp {
 img.nous{
     width: 150px;
     border-radius: 50%;
-    -webkit-transition: all 1s ease;
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
     box-shadow: 4px 4px 8px rgb(112, 88, 46);
 }
 
 .nous:hover{
     width: 170px;
     border-radius: 40%;
-    -webkit-transform:scale(1.5);
+    -webkit-transform:scale(1.5); /* Safari et Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* Internet Explorer 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
 }
 
 p.nous{
