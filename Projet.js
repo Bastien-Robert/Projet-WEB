@@ -26,10 +26,6 @@ function addline(){
 
 }
 
-function scroll_wp(){
-
-}
-
 function toggleMute() {
 
   var video=document.getElementById("videoId");
