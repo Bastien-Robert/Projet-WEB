@@ -459,3 +459,8 @@ li.ordi p.carac{
     text-align: center;
     text-shadow:rgb(0, 0, 0) 2px 0 2px;
 }
+
+div.entete#bas{
+    border: 5px solid;
+    border-color: rgb(214, 96, 16);;
+}
