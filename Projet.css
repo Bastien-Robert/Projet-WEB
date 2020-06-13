@@ -338,10 +338,11 @@ li.ordi{
 
 li.ordi p.nomordi{
     font-family: Impact, fantasy;
+    text-shadow:rgb(0, 0, 0) 2px 0 2px;
     color: rgb(214, 96, 16);
     float: right;
     margin-right: 25px;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 li.ordi p.price{
@@ -349,14 +350,15 @@ li.ordi p.price{
     color: rgb(214, 96, 16);
     float: left;
     margin-left: 25px;
-    font-size: 35px;
+    font-size: 50px;
+    background-color: yellow;
 }
 
 li.ordi p.carac{
     float: right;
-    margin-right: 50px;
+    font-family: Impact, fantasy;
+    margin-right: 100px;
     margin-bottom: 300px;
-   
 }
 
 
